@@ -1,0 +1,18 @@
+在 JavaScript 中，每当定义一个对象（函数也是对象）时候，对象中都会包含一些预定义的属性。
+其中每个函数对象都有一个prototype 属性，
+这个属性指向函数的原型对象。
+
+
+
+每个对象都有 __proto__ 属性，但只有函数对象才有 prototype 属性（除原形对象）=》函数的原型对象
+
+原型对象，顾名思义，它就是一个普通对象（废话 = =!）。从现在开始你要牢牢记住原型对象就是 Person.prototype ，
+如果你还是害怕它，那就把它想想成一个字母 A： var A = Person.prototype
+
+constructor =》 function
+
+
+原型对象（Person.prototype）是 构造函数（Person）的一个实例。
+
+__proto__
+

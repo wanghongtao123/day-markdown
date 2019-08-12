@@ -1,0 +1,3 @@
+Web体系结构的一个重要原则是所有重要的资源都可以通过URI进行识别。该发现讨论了资源的URI可寻址性与HTTP GET的HTTP GET和POST方法之间的关系。HTTP GET提升了URI的可寻址性，因此设计人员应该采用它来进行简单查询等安全操作。POST适用于其他类型的应用程序，其中用户请求可能会更改资源（或相关资源）的状态。该发现解释了如何在考虑到架构，安全性和实际考虑因素的情况下为应用程序选择HTTP GET和POST。
+
+https://www.w3.org/2001/tag/doc/whenToUseGet.html#uris
